@@ -37,6 +37,9 @@ body {
   color: black;
   font-weight: 600;
 }
+.input-box input::-webkit-input-placeholder {
+  opacity: 0.3;
+}
 .input-box input:focus {
   outline: none;
 }
