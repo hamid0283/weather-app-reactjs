@@ -6,5 +6,55 @@
 }
 
 body {
-  background-color: rgb(27, 25, 44);
+  background-color: rgb(32, 31, 41);
+}
+.main {
+  width: 80%;
+  height: 500px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 30px;
+}
+.input-box {
+  position: relative;
+  width: 60%;
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  height: 36px;
+}
+.input-box input {
+  width: 100%;
+  height: calc(100% - 30px);
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(235, 235, 235);
+  padding: 15px;
+}
+.input-box input:focus {
+  outline: none;
+}
+.input-box button {
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 4px;
+  top: 3px;
+  cursor: pointer;
+}
+@media screen and (min-width: 450px) {
+  .main {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .main {
+    width: 50%;
+  }
 }
