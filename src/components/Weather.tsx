@@ -14,6 +14,7 @@ const Weather = () => {
         <img src={sun} alt="" />
         <span className="temp">32°c</span>
       </div>
+      <div className="info-seprator"></div>
       <div className="wind-rain">
         <div className="wind">
           <img src={wind} alt="wind" />

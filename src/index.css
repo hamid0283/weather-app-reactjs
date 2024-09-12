@@ -59,6 +59,13 @@ body {
   height: 264px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.info-seprator {
+  height: 4px;
+  width: 80%;
+  background-color: white;
 }
 .city-name {
   font-size: 50px;
@@ -68,7 +75,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 70%;
+  height: 65%;
 }
 .temp {
   font-size: 30px;
@@ -81,7 +88,8 @@ body {
   display: flex;
   padding: 0 20px;
   justify-content: space-around;
-  height: 30%;
+  height: 25%;
+  width: 100%;
 }
 .wind-rain img {
   width: 24px;
@@ -135,12 +143,16 @@ body {
   }
   .temperature {
     height: 100%;
-    width: 70%;
+    width: 65%;
+  }
+  .info-seprator {
+    width: 4px;
+    height: 80%;
   }
   .wind-rain {
     flex-direction: column;
     height: 100%;
-    width: 30%;
+    width: 25%;
   }
   .wind-rain img {
     margin: 0 0 15px 0;
