@@ -16,7 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: auto;
-  margin-top: 50px;
+  margin-top: calc((100vh - 500px) / 2);
   border-radius: 30px;
   padding: 50px;
 }
@@ -95,6 +95,30 @@ body {
 }
 .rain {
   display: flex;
+  align-items: center;
+}
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 400px;
+  margin: calc((100vh - 400px) / 2) auto;
+  justify-content: space-around;
+}
+.oops {
+  font-size: 70px;
+}
+.error-br {
+  width: 60%;
+  height: 3px;
+  background-color: white;
+}
+.error-span {
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  justify-content: space-around;
   align-items: center;
 }
 @media screen and (min-width: 450px) {
