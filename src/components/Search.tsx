@@ -50,7 +50,16 @@ const Search = ({ setCityProp }: SearchProp) => {
   };
   return (
     <div className="input-box">
-      <input id="input" type="text" placeholder="Search" />
+      <input
+        id="input"
+        type="text"
+        placeholder="Search"
+        onKeyDown={function (e) {
+          if (e.keyCode == 13) {
+            handleChange();
+          }
+        }}
+      />
       <button onClick={handleChange}>
         <img src={searchIcon} alt="" />
       </button>
