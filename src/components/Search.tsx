@@ -15,7 +15,7 @@ interface SearchProp {
 
 const Search = ({ setCityProp }: SearchProp) => {
   const [city, setCity]: [string, Dispatch<SetStateAction<string>>] =
-    useState("Isfahan");
+    useState("Tehran");
   function handleChange(): void {
     const input = document.getElementById("input") as HTMLInputElement | null;
     if (input) {

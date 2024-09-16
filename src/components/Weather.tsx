@@ -1,7 +1,6 @@
 import cloud from "../assets/icons/cloud.png";
 import rain from "../assets/icons/rain.png";
 import snow from "../assets/icons/snow.png";
-import sunCloud from "../assets/icons/sun-cloud.png";
 import sun from "../assets/icons/sun.png";
 import wind from "../assets/icons/wind.png";
 import waterDrop from "../assets/icons/water-drop.png";
